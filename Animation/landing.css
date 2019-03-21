@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 960px;
+    background-color: rgb(73, 78, 99);
+    margin: auto;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.main{
+height: 230px;
+}
+.main h1{
+font-size: 40px;
+position: relative;
+animation-name: heading;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-timing-function: ease-out;
+}
+@keyframes heading{
+    0%{top: -50px;}
+    100%{top: 130px;}
+}
+.content{
+
+position: relative;
+animation-name: para;
+animation-duration: 3s;
+animation-fill-mode:forwards;
+animation-timing-function: ease-out; 
+}
+@keyframes para{
+    0%{left: -1000px;}
+    100%{left: 0px;}
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    color: #fff;
+    border: #fff 2px solid;
+    padding: 1rem 2rem;
+    opacity: 0;
+    animation-name: button;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.btn:hover{
+    transform: rotateY(180deg) ;
+}
+@keyframes button{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
