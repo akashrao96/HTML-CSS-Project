@@ -1,3 +1,3 @@
 # HTML-CSS-Projects
 
-Kindly watch the video of the website outlook
+Kindly watch the video to visualise the website outlook.
